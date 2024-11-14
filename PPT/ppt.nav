@@ -5,81 +5,53 @@
 \headcommand {\beamer@sectionpages {1}{2}}
 \headcommand {\beamer@subsectionpages {1}{2}}
 \headcommand {\sectionentry {1}{Introduction}{3}{Introduction}{0}}
-\headcommand {\slideentry {1}{0}{1}{3/3}{}{0}}
+\headcommand {\beamer@subsectionpages {3}{2}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{3}{Objectives}}
+\headcommand {\slideentry {1}{1}{1}{3/3}{Objectives}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\slideentry {1}{0}{2}{4/6}{}{0}}
-\headcommand {\beamer@framepages {4}{6}}
-\headcommand {\beamer@sectionpages {3}{6}}
-\headcommand {\beamer@subsectionpages {3}{6}}
-\headcommand {\sectionentry {2}{Methodology}{7}{Methodology}{0}}
-\headcommand {\beamer@subsectionpages {7}{6}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{7}{Uncertainty and Contingency Sets}}
-\headcommand {\slideentry {2}{1}{1}{7/7}{Uncertainty and Contingency Sets}{0}}
+\headcommand {\beamer@subsectionpages {3}{3}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{4}{Context}}
+\headcommand {\slideentry {1}{2}{1}{4/4}{Context}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\slideentry {1}{2}{2}{5/5}{Context}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\beamer@sectionpages {3}{5}}
+\headcommand {\beamer@subsectionpages {4}{5}}
+\headcommand {\sectionentry {2}{Case Study}{6}{Case Study}{0}}
+\headcommand {\slideentry {2}{0}{1}{6/6}{}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\slideentry {2}{0}{2}{7/7}{}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\slideentry {2}{1}{2}{8/12}{Uncertainty and Contingency Sets}{0}}
-\headcommand {\beamer@framepages {8}{12}}
-\headcommand {\slideentry {2}{1}{3}{13/15}{Uncertainty and Contingency Sets}{0}}
-\headcommand {\beamer@framepages {13}{15}}
-\headcommand {\beamer@subsectionpages {7}{15}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{16}{Mathematical Model for the EMS}}
-\headcommand {\slideentry {2}{2}{1}{16/17}{Mathematical Model for the EMS}{0}}
-\headcommand {\beamer@framepages {16}{17}}
-\headcommand {\slideentry {2}{2}{2}{18/18}{Mathematical Model for the EMS}{0}}
+\headcommand {\slideentry {2}{0}{3}{8/8}{}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\slideentry {2}{0}{4}{9/9}{}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\slideentry {2}{0}{5}{10/10}{}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\beamer@sectionpages {6}{10}}
+\headcommand {\beamer@subsectionpages {6}{10}}
+\headcommand {\sectionentry {3}{Results}{11}{Results}{0}}
+\headcommand {\slideentry {3}{0}{1}{11/11}{}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\slideentry {3}{0}{2}{12/12}{}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\slideentry {3}{0}{3}{13/13}{}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\slideentry {3}{0}{4}{14/14}{}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\slideentry {3}{0}{5}{15/15}{}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {3}{0}{6}{16/16}{}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\beamer@sectionpages {11}{16}}
+\headcommand {\beamer@subsectionpages {11}{16}}
+\headcommand {\sectionentry {4}{Conclusions}{17}{Conclusions}{0}}
+\headcommand {\slideentry {4}{0}{1}{17/17}{}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\slideentry {4}{0}{2}{18/18}{}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\beamer@subsectionpages {16}{18}}
-\headcommand {\beamer@subsectionentry {0}{2}{3}{19}{Multi-objective Optimization Problem}}
-\headcommand {\slideentry {2}{3}{1}{19/19}{Multi-objective Optimization Problem}{0}}
-\headcommand {\beamer@framepages {19}{19}}
-\headcommand {\slideentry {2}{3}{2}{20/20}{Multi-objective Optimization Problem}{0}}
-\headcommand {\beamer@framepages {20}{20}}
-\headcommand {\beamer@sectionpages {7}{20}}
-\headcommand {\beamer@subsectionpages {19}{20}}
-\headcommand {\sectionentry {3}{EMS software architecture}{21}{EMS software architecture}{0}}
-\headcommand {\beamer@subsectionpages {21}{20}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{21}{Backend and Frontend}}
-\headcommand {\slideentry {3}{1}{1}{21/24}{Backend and Frontend}{0}}
-\headcommand {\beamer@framepages {21}{24}}
-\headcommand {\slideentry {3}{1}{2}{25/25}{Backend and Frontend}{0}}
-\headcommand {\beamer@framepages {25}{25}}
-\headcommand {\slideentry {3}{1}{3}{26/26}{Backend and Frontend}{0}}
-\headcommand {\beamer@framepages {26}{26}}
-\headcommand {\beamer@sectionpages {21}{26}}
-\headcommand {\beamer@subsectionpages {21}{26}}
-\headcommand {\sectionentry {4}{Case study}{27}{Case study}{0}}
-\headcommand {\slideentry {4}{0}{1}{27/27}{}{0}}
-\headcommand {\beamer@framepages {27}{27}}
-\headcommand {\slideentry {4}{0}{2}{28/28}{}{0}}
-\headcommand {\beamer@framepages {28}{28}}
-\headcommand {\beamer@sectionpages {27}{28}}
-\headcommand {\beamer@subsectionpages {27}{28}}
-\headcommand {\sectionentry {5}{Results}{29}{Results}{0}}
-\headcommand {\beamer@subsectionpages {29}{28}}
-\headcommand {\beamer@subsectionentry {0}{5}{1}{29}{Multi-objective Optimization Analysis}}
-\headcommand {\slideentry {5}{1}{1}{29/30}{Multi-objective Optimization Analysis}{0}}
-\headcommand {\beamer@framepages {29}{30}}
-\headcommand {\slideentry {5}{1}{2}{31/37}{Multi-objective Optimization Analysis}{0}}
-\headcommand {\beamer@framepages {31}{37}}
-\headcommand {\slideentry {5}{1}{3}{38/38}{Multi-objective Optimization Analysis}{0}}
-\headcommand {\beamer@framepages {38}{38}}
-\headcommand {\slideentry {5}{1}{4}{39/39}{Multi-objective Optimization Analysis}{0}}
-\headcommand {\beamer@framepages {39}{39}}
-\headcommand {\slideentry {5}{1}{5}{40/40}{Multi-objective Optimization Analysis}{0}}
-\headcommand {\beamer@framepages {40}{40}}
-\headcommand {\slideentry {5}{1}{6}{41/41}{Multi-objective Optimization Analysis}{0}}
-\headcommand {\beamer@framepages {41}{41}}
-\headcommand {\slideentry {5}{1}{7}{42/42}{Multi-objective Optimization Analysis}{0}}
-\headcommand {\beamer@framepages {42}{42}}
-\headcommand {\beamer@sectionpages {29}{42}}
-\headcommand {\beamer@subsectionpages {29}{42}}
-\headcommand {\sectionentry {6}{Conclusions}{43}{Conclusions}{0}}
-\headcommand {\slideentry {6}{0}{1}{43/45}{}{0}}
-\headcommand {\beamer@framepages {43}{45}}
-\headcommand {\slideentry {6}{0}{2}{46/46}{}{0}}
-\headcommand {\beamer@framepages {46}{46}}
-\headcommand {\slideentry {6}{0}{3}{47/47}{}{0}}
-\headcommand {\beamer@framepages {47}{47}}
-\headcommand {\beamer@partpages {1}{47}}
-\headcommand {\beamer@subsectionpages {43}{47}}
-\headcommand {\beamer@sectionpages {43}{47}}
-\headcommand {\beamer@documentpages {47}}
-\headcommand {\gdef \inserttotalframenumber {26}}
+\headcommand {\beamer@partpages {1}{18}}
+\headcommand {\beamer@subsectionpages {17}{18}}
+\headcommand {\beamer@sectionpages {17}{18}}
+\headcommand {\beamer@documentpages {18}}
+\headcommand {\gdef \inserttotalframenumber {18}}

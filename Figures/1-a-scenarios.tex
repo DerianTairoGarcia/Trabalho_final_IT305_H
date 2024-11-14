@@ -3,26 +3,50 @@
     xlabel={Period time [h]},
     ylabel near ticks,
     xlabel near ticks,
-    ylabel={Active Power [p.u.]},
+    ylabel={Active Power [kW]},
     tick style = {line width = 0.5, color = lightgray, 
         major tick length=4pt,minor tick length=2pt,
         minor x tick num = 3, minor y tick num =1},
-    tick label style = {font=\small, xtick distance=4, ytick distance=152,
-        xticklabels={00:00, 00:00, 04:00, 08:00, 12:00, 16:00, 20:00},
-        yticklabels={0,0,0.2,0.4,0.6,0.8,1.0}},
+    tick label style = {font=\small, xtick distance=4, 
+        xticklabels={00:00, 00:00, 04:00, 08:00, 12:00, 16:00, 20:00}},
+    label style = {},
     legend style = {font=\footnotesize, at={(0.99,0.98)}, 
         legend cell align=left, line width=0.5pt, draw=lightgray},
     legend entries={High PV, Medium PV, Low PV, High load, Medium load, Low load},
-    ymin=0, ymax=760,
+    ymin=0, ymax=800,
     xmin=0, xmax=23,
-    width=11.5cm,
-    height=7.5cm,
+    width=9.5cm,
+    height=6.5cm,
     axis line style = {lightgray, line width = 0.5pt},
     cycle multi list={
     black, gray\nextlist
     linestyles
     }
+    %samples=3,  %optional, for many plots is important
     ]
+    % \addplot [black, line width=1.5pt] table 
+    %     [col sep=comma, x=h, y=pv_h] {./Data/pv_pd.dat};
+    % \addlegendentry[]{High PV}
+
+    % \addplot [gray, line width=1.5pt] table 
+    %     [col sep=comma, x=h, y=pv_m] {./Data/pv_pd.dat};
+    % \addlegendentry[]{Medium PV}
+
+    % \addplot [lightgray, line width=1.5pt] table 
+    %     [col sep=comma, x=h, y=pv_l] {./Data/pv_pd.dat};
+    % \addlegendentry[]{Low PV}
+
+    % \addplot [black, dashed, line width=1.5pt] table 
+    %     [col sep=comma, x=h, y=pd_h] {./Data/pv_pd.dat};
+    % \addlegendentry{High load}
+
+    % \addplot [gray,dashed,line width=1.5pt] table 
+    %     [col sep=comma, x=h, y=pd_m] {./Data/pv_pd.dat};
+    % \addlegendentry{Medium load}
+
+    % \addplot [lightgray, dashed, line width=1.5pt] table 
+    %     [col sep=comma, x=h, y=pd_l] {./Data/pv_pd.dat};
+    % \addlegendentry{Low load} 
 
     \addplot  table 
         [col sep=comma, x=h, y=pv_h] {./Data/pv_pd.dat};
