@@ -1,0 +1,11 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Methodology}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Uncertainty and Contingency Sets}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{Mathematical Model for the EMS}{16}{0}{2}
+\beamer@subsectionintoc {2}{3}{Multi-objective Optimization Problem}{19}{0}{2}
+\beamer@sectionintoc {3}{EMS software architecture}{21}{0}{3}
+\beamer@subsectionintoc {3}{1}{Backend and Frontend}{21}{0}{3}
+\beamer@sectionintoc {4}{Case study}{27}{0}{4}
+\beamer@sectionintoc {5}{Results}{29}{0}{5}
+\beamer@subsectionintoc {5}{1}{Multi-objective Optimization Analysis}{29}{0}{5}
+\beamer@sectionintoc {6}{Conclusions}{43}{0}{6}

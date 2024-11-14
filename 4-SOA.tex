@@ -1,0 +1,111 @@
+%% \multicolumn{number of columns}{position}{text}
+%% p{6cm} 'Paragraph box" of width 6cm
+%% \arraystretch{1.5} % Increase the row height by 1.5
+%% \centering % Center the table and is mandatory
+%% \multirow{number of rows}{width}{text}
+%% Array package
+%% m{1cm} produces a column of width 1cm and centers the text vertically
+%% >{decl} can be used to insert a command before each cell in a column
+%% \resiblox{0.5\textwidth}{!}{table} % Resize the table to 50% for two columns
+
+\renewcommand{\multirowsetup}{\centering} % Center the text in the first column
+\renewcommand{\arraystretch}{1.1}
+
+\begin{table*}
+\caption{Comparison of the proposed EMS with previous works.}
+\label{tab:comparison}
+\begin{center}
+    \resizebox{\textwidth}{!}{
+    \begin{threeparttable}    
+    \begin{tabular}{cccccccccccccc}
+        % \hline
+        \hline
+        \multirow{2}{*}{Ref}
+            &\multicolumn{3}{c}{Constraints}
+            &\multicolumn{1}{c}{Three-phase}
+            &\multicolumn{2}{c}{Uncertainty}
+            &\multicolumn{1}{c}{Real}
+            &\multicolumn{1}{c}{EV}
+                &\multicolumn{1}{c}{\multirow{2}{*}{Multi-objective}}
+                &\multicolumn{1}{c}{\multirow{2}{*}{GUI\tnote{1}}}
+                &\multicolumn{1}{c}{\multirow{2}{*}{Case study}}
+            &\multicolumn{1}{c}{Implemented}
+            &\multicolumn{1}{c}{Mathematical}
+            
+                \\
+        \cline{2-4}
+        \cline{6-7}
+            &\multicolumn{1}{c}{\centering Connected}
+            &\multicolumn{1}{c}{Islanded}
+            &\multicolumn{1}{c}{Transition}
+            &\multicolumn{1}{c}{power flow}
+            &\multicolumn{1}{c}{\centering Demand}
+            &\multicolumn{1}{c}{PV}
+            &\multicolumn{1}{c}{\centering time}
+            &\multicolumn{1}{c}{\centering charging}
+            &&&&\multicolumn{1}{c}{with}
+            &\multicolumn{1}{c}{model\tnote{*}}
+            \\
+        \hline
+        \cite{yang2019}&\checkmark& & & &\checkmark&\checkmark&\checkmark&
+            \checkmark& & &Experimental Setup&Matlab&Not mencioned\\
+        \cite{restrepo2021}&\checkmark&\checkmark&\checkmark& &\checkmark&
+            \checkmark&\checkmark&\checkmark& &\checkmark&Real Microgrid&
+            Pyomo&MILP\\
+        \cite{vergara2019}&\checkmark&\checkmark& &\checkmark&\checkmark&
+            \checkmark& & & & &Simulation&AMPL&MISOCP\\
+        \cite{vergara2019_2}&\checkmark&\checkmark& &\checkmark&\checkmark&
+            \checkmark& & & & &Simulation&AMPL&MINLP\\
+        \cite{cimen2022}&\checkmark& & & &\checkmark&\checkmark&\checkmark&
+            \checkmark&\checkmark& &Experimental Setup&Matlab&DL\\
+        \cite{kim2022}&\checkmark& & & &\checkmark&\checkmark& &\checkmark& 
+            &\checkmark&Experimental Setup&Not informed&MINLP\\
+        \cite{gou2022}&\checkmark& & & &\checkmark&\checkmark& &\checkmark& & &
+            Simulation&Matlab&MIQP\\
+        \cite{masrur2022}&\checkmark&\checkmark& & &\checkmark&\checkmark& &
+            \checkmark& & &Experimental Setup&Pyomo&MILP\\
+        \cite{li2024}&\checkmark& & & &\checkmark&\checkmark& &\checkmark&
+            \checkmark& &Simulation&Matlab&ADMM\\
+        \cite{zhang2022}&\checkmark& & & & & & &\checkmark&\checkmark& &
+            Simulation&Not informed&Heuristic\\
+        \cite{mei2022}&\checkmark& & & &\checkmark& & &\checkmark&\checkmark& &
+            Simulation&Not informed&Heuristic\\
+        \cite{ullah2023}&\checkmark& & & &\checkmark&\checkmark&\checkmark&
+            \checkmark& &\checkmark&Experimental&Homer Grid&Heuristic\\
+        \cite{pitchai2024}&\checkmark& & & &\checkmark&\checkmark& & & & &
+            Simulation&Matlab&Heuristic\\
+        \cite{mansouri2023}&\checkmark& & & &\checkmark&\checkmark& &
+            \checkmark& & &Simulation&Matlab \& GAMS&MILP\\
+
+        \cite{yehia2024}&\checkmark&\checkmark& & &\checkmark&\checkmark&
+            \checkmark& & &\checkmark&Experimental Setup&Matlab/Simulink&
+            Not mencioned\\
+        \cite{abid24}&\checkmark& & & &\checkmark&\checkmark& &\checkmark&
+            \checkmark& &Simulation&Not informed&Metaheuristic\\
+        \cite{silva2023}&\checkmark&\checkmark&\checkmark&\checkmark&\checkmark&
+            \checkmark&\checkmark& & &\checkmark& Real Microgrid&Pulp&MILP\\
+        \cite{zandrazavi2022}&\checkmark& & &\checkmark&\checkmark&\checkmark&
+            &\checkmark&\checkmark& &Simulation&AMPL&NLP\\
+        This work&\checkmark&\checkmark&\checkmark&\checkmark&\checkmark&
+            \checkmark&\checkmark&\checkmark&\checkmark&\checkmark
+            &Real Microgrid&Pyomo/Python&MILP\\
+                       
+        % \hline
+        \hline
+ 
+    \end{tabular}
+    \begin{tablenotes}
+        \item[1] \footnotesize Graphical User Interface.
+        \item[*] \footnotesize MINLP - Mixed-Integer Nonlinear Programming,
+        MISOCP - Mixed-Integer Second-Order Cone Programming,
+        MILP - Mixed-Integer Linear Programming,
+        DL - Deep Learning,
+        MIQP - Mixed-Integer Quadratic Programming,
+        ADMM - Alternating Direction Method of Multipliers,
+        RL - Reinforcement Learning,
+        NLP - Nonlinear Programming.
+    \end{tablenotes}
+    \end{threeparttable}
+    }
+\end{center}
+\end{table*}
