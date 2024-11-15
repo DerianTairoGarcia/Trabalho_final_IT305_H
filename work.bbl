@@ -1,0 +1,12 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Richardson2013}
+P.~Richardson, M.~Moran, J.~Taylor, A.~Maitra, A.~Keane, Impact of electric vehicle charging on residential distribution networks: An irish demonstration initiative, in: 22nd International Conference and Exhibition on Electricity Distribution (CIRED 2013), 2013, pp. 1--4.
+\newblock \href {https://doi.org/10.1049/cp.2013.0873} {\path{doi:10.1049/cp.2013.0873}}.
+
+\end{thebibliography}
