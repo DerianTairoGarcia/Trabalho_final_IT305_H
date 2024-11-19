@@ -1,0 +1,13 @@
+New LineCode.AUT_AL-3x120  nphases=3 R1=0.253 X1=0.098 R0=0.253 X0=0.098 Units=km
+New LineCode.AUT_AL-3x25  nphases=3 R1=1.2 X1=0.1108 R0=1.2 X0=0.1108 Units=km
+New LineCode.AUT_AL-3x70  nphases=3 R1=0.443 X1=0.1037 R0=0.443 X0=0.1037 Units=km
+New LineCode.AUT_CU-3x25  nphases=3 R1=0.727 X1=0.093 R0=0.727 X0=0.093 Units=km
+New LineCode.CPI-3x16  nphases=3 R1=1.17 X1=0.1108 R0=1.17 X0=0.1108 Units=km
+New LineCode.CPI-3x25  nphases=3 R1=0.741 X1=0.098 R0=0.741 X0=0.098 Units=km
+New LineCode.CPI-3x35  nphases=3 R1=0.534 X1=0.098 R0=0.534 X0=0.098 Units=km
+New LineCode.N2XY-3x25  nphases=3 R1=0.78 X1=0.093 R0=0.78 X0=0.093 Units=km
+New LineCode.NKBA-3x25  nphases=3 R1=0.72 X1=0.093 R0=0.72 X0=0.093 Units=km
+New LineCode.NYY-3x25  nphases=3 R1=0.727 X1=0.093 R0=0.727 X0=0.093 Units=km
+New LineCode.NYY-3x35  nphases=3 R1=0.519 X1=0.093 R0=0.519 X0=0.093 Units=km
+New LineCode.NYY-3x50  nphases=3 R1=0.364 X1=0.093 R0=0.364 X0=0.093 Units=km
+

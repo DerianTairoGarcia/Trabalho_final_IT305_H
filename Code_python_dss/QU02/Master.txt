@@ -1,0 +1,92 @@
+clear
+Set DefaultBaseFrequency = 60
+set datapath = C:\Users\erick\Desktop\2024_UNICAMP\03_Cursos\TSEEII\03_Trabajo_Final\Simulacion_Final\2024.11.07_QU02\QU02\
+
+New Circuit.SED022 basekV=10.5 pu=1.0 angle=0 frequency=60 phases=3
+
+!Redirect LoadShapes.txt
+!new Loadshape.Shape_1 npts=24 interval=1.0 csvfile=demand_daily.txt
+
+!Demanda Del SDE
+new Loadshape.Shape_01 npts=24 interval=1.0 csvfile=demand_daily_01.txt
+new Loadshape.Shape_02 npts=24 interval=1.0 csvfile=demand_daily_02.txt
+new Loadshape.Shape_03 npts=24 interval=1.0 csvfile=demand_daily_03.txt
+new Loadshape.Shape_04 npts=24 interval=1.0 csvfile=demand_daily_04.txt
+new Loadshape.Shape_05 npts=24 interval=1.0 csvfile=demand_daily_05.txt
+new Loadshape.Shape_06 npts=24 interval=1.0 csvfile=demand_daily_06.txt
+new Loadshape.Shape_07 npts=24 interval=1.0 csvfile=demand_daily_07.txt
+new Loadshape.Shape_08 npts=24 interval=1.0 csvfile=demand_daily_08.txt
+new Loadshape.Shape_09 npts=24 interval=1.0 csvfile=demand_daily_09.txt
+new Loadshape.Shape_10 npts=24 interval=1.0 csvfile=demand_daily_10.txt
+new Loadshape.Shape_11 npts=24 interval=1.0 csvfile=demand_daily_11.txt
+new Loadshape.Shape_12 npts=24 interval=1.0 csvfile=demand_daily_12.txt
+new Loadshape.Shape_13 npts=24 interval=1.0 csvfile=demand_daily_13.txt
+new Loadshape.Shape_14 npts=24 interval=1.0 csvfile=demand_daily_14.txt
+
+New Loadshape.ev_shape_1  npts=24 interval=1 mult=(file=profile_ev1_3kw.txt) useactual=false
+New Loadshape.ev_shape_2  npts=24 interval=1 mult=(file=profile_ev2_3kw.txt) useactual=false
+New Loadshape.ev_shape_3  npts=24 interval=1 mult=(file=profile_ev3_3kw.txt) useactual=false
+
+
+!new Loadshape.Shape_1 npts=288 interval=5.0 csvfile=C:\Users\erick\Desktop\2024_UNICAMP\03_Cursos\TSEEII\03_Trabajo_Final\Simulacion_Final\2024.11.07_QU02\QU02\CSV_Outputs\Load1_5min.csv
+
+
+!Redirect Transformers.txt
+New Transformer.SED022 phases=3 windings=2 buses=(sourcebus, 1) conns=(delta, wye) kvs=(10.5, 0.22) kvas=(100, 100) %loadloss=0 xhl=5
+
+
+!Edit Vsource.Source BasekV=10.5 pu=1.00  ISC3=3000  ISC1=2500
+Redirect LineCode.txt
+Redirect Lines_3.txt
+Redirect Loads.txt
+
+Redirect Monitors_3.txt
+
+set controlmode=static
+set mode=daily
+
+!set voltagebases=[10.5 0.22]
+!calcvoltagebases
+
+Solve
+
+!show voltages LL Nodes	
+!show currents
+
+export monitor PQ_SED022
+export monitor V_SED022
+export Monitor TBT001_PQ_vs_Time
+export Monitor TBT002_PQ_vs_Time
+export Monitor TBT003_PQ_vs_Time
+export Monitor TBT004_PQ_vs_Time
+export Monitor TBT005_PQ_vs_Time
+export Monitor TBT006_PQ_vs_Time
+export Monitor TBT007_PQ_vs_Time
+export Monitor TBT008_PQ_vs_Time
+export Monitor TBT009_PQ_vs_Time
+export Monitor TBT010_PQ_vs_Time
+export Monitor TBT011_PQ_vs_Time
+export Monitor TBT012_PQ_vs_Time
+export Monitor TBT013_PQ_vs_Time
+export Monitor TBT001_VI_vs_Time
+export Monitor TBT002_VI_vs_Time
+export Monitor TBT003_VI_vs_Time
+export Monitor TBT004_VI_vs_Time
+export Monitor TBT005_VI_vs_Time
+export Monitor TBT006_VI_vs_Time
+export Monitor TBT007_VI_vs_Time
+export Monitor TBT008_VI_vs_Time
+export Monitor TBT009_VI_vs_Time
+export Monitor TBT010_VI_vs_Time
+export Monitor TBT011_VI_vs_Time
+export Monitor TBT012_VI_vs_Time
+export Monitor TBT013_VI_vs_Time
+
+
+
+!visualize What={voltages} element=Line.TBT001
+
+!visualize What={currents} element=Line.TBT001
+
+!plot profile phases=all
+

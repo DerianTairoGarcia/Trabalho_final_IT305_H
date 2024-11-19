@@ -1,0 +1,22 @@
+!! Caso base 14 perfiles
+New Loadshape.Shape_1  npts=24 interval=1 mult=(file=C:\demand_daily_1.txt) useactual=false
+New Loadshape.Shape_2  npts=24 interval=1 mult=(file=C:\demand_daily_2.txt) useactual=false
+New Loadshape.Shape_3  npts=24 interval=1 mult=(file=C:\demand_daily_3.txt) useactual=false
+New Loadshape.Shape_4  npts=24 interval=1 mult=(file=C:\demand_daily_4.txt) useactual=false
+New Loadshape.Shape_5  npts=24 interval=1 mult=(file=C:\demand_daily_5.txt) useactual=false
+New Loadshape.Shape_6  npts=24 interval=1 mult=(file=C:\demand_daily_6.txt) useactual=false
+New Loadshape.Shape_7  npts=24 interval=1 mult=(file=C:\demand_daily_7.txt) useactual=false
+New Loadshape.Shape_8  npts=24 interval=1 mult=(file=C:\demand_daily_8.txt) useactual=false
+New Loadshape.Shape_9  npts=24 interval=1 mult=(file=C:\demand_daily_9.txt) useactual=false
+New Loadshape.Shape_10 npts=24 interval=1 mult=(file=C:\demand_daily_10.txt) useactual=false
+New Loadshape.Shape_11 npts=24 interval=1 mult=(file=C:\demand_daily_11.txt) useactual=false
+New Loadshape.Shape_12 npts=24 interval=1 mult=(file=C:\demand_daily_12.txt) useactual=false
+New Loadshape.Shape_13 npts=24 interval=1 mult=(file=C:\demand_daily_13.txt) useactual=false
+New Loadshape.Shape_14 npts=24 interval=1 mult=(file=C:\demand_daily_14.txt) useactual=false
+
+!! Perfiles 03 EVs
+
+New Loadshape.ev_shape_1  npts=24 interval=1 mult=(file=C:\profile_ev1_3kw.txt) useactual=false
+New Loadshape.ev_shape_2  npts=24 interval=1 mult=(file=C:\profile_ev2_3kw.txt) useactual=false
+New Loadshape.ev_shape_3  npts=24 interval=1 mult=(file=C:\profile_ev3_3kw.txt) useactual=false
+

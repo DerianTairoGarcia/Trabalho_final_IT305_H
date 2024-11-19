@@ -1,0 +1,17 @@
+new Loadshape.Shape_01 npts=24 interval=1.0 csvfile=demand_daily_01.txt
+new Loadshape.Shape_02 npts=24 interval=1.0 csvfile=demand_daily_02.txt
+new Loadshape.Shape_03 npts=24 interval=1.0 csvfile=demand_daily_03.txt
+new Loadshape.Shape_04 npts=24 interval=1.0 csvfile=demand_daily_04.txt
+new Loadshape.Shape_05 npts=24 interval=1.0 csvfile=demand_daily_05.txt
+new Loadshape.Shape_06 npts=24 interval=1.0 csvfile=demand_daily_06.txt
+new Loadshape.Shape_07 npts=24 interval=1.0 csvfile=demand_daily_07.txt
+new Loadshape.Shape_08 npts=24 interval=1.0 csvfile=demand_daily_08.txt
+new Loadshape.Shape_09 npts=24 interval=1.0 csvfile=demand_daily_09.txt
+new Loadshape.Shape_10 npts=24 interval=1.0 csvfile=demand_daily_10.txt
+new Loadshape.Shape_11 npts=24 interval=1.0 csvfile=demand_daily_11.txt
+new Loadshape.Shape_12 npts=24 interval=1.0 csvfile=demand_daily_12.txt
+new Loadshape.Shape_13 npts=24 interval=1.0 csvfile=demand_daily_13.txt
+
+New Loadshape.ev_shape_1  npts=24 interval=1 mult=(file=profile_ev1_3kw.txt) useactual=false
+New Loadshape.ev_shape_2  npts=24 interval=1 mult=(file=profile_ev2_3kw.txt) useactual=false
+New Loadshape.ev_shape_3  npts=24 interval=1 mult=(file=profile_ev3_3kw.txt) useactual=false

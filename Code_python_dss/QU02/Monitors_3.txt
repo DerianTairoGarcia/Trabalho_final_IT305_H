@@ -1,0 +1,33 @@
+new monitor.PQ_SED022 element=transformer.SED022 terminal=1 mode=1 ppolar=no
+new monitor.V_SED022 element=transformer.SED022 terminal=2 mode=0
+
+
+New Monitor.TBT001_PQ_vs_Time Line.TBT001 terminal=1 Mode=1 ppolar=no
+New Monitor.TBT002_PQ_vs_Time Line.TBT002 terminal=1 Mode=1 ppolar=no
+New Monitor.TBT003_PQ_vs_Time Line.TBT003 terminal=1 Mode=1 ppolar=no
+New Monitor.TBT004_PQ_vs_Time Line.TBT004 terminal=1 Mode=1 ppolar=no
+New Monitor.TBT005_PQ_vs_Time Line.TBT005 terminal=1 Mode=1 ppolar=no
+New Monitor.TBT006_PQ_vs_Time Line.TBT006 terminal=1 Mode=1 ppolar=no
+New Monitor.TBT007_PQ_vs_Time Line.TBT007 terminal=1 Mode=1 ppolar=no
+New Monitor.TBT008_PQ_vs_Time Line.TBT008 terminal=1 Mode=1 ppolar=no
+New Monitor.TBT009_PQ_vs_Time Line.TBT009 terminal=1 Mode=1 ppolar=no
+New Monitor.TBT010_PQ_vs_Time Line.TBT010 terminal=1 Mode=1 ppolar=no
+New Monitor.TBT011_PQ_vs_Time Line.TBT011 terminal=1 Mode=1 ppolar=no
+New Monitor.TBT012_PQ_vs_Time Line.TBT012 terminal=1 Mode=1 ppolar=no
+New Monitor.TBT013_PQ_vs_Time Line.TBT013 terminal=1 Mode=1 ppolar=no
+New Monitor.TBT001_VI_vs_Time Line.TBT001 terminal=1 Mode=0
+New Monitor.TBT002_VI_vs_Time Line.TBT002 terminal=1 Mode=0
+New Monitor.TBT003_VI_vs_Time Line.TBT003 terminal=1 Mode=0
+New Monitor.TBT004_VI_vs_Time Line.TBT004 terminal=1 Mode=0
+New Monitor.TBT005_VI_vs_Time Line.TBT005 terminal=1 Mode=0
+New Monitor.TBT006_VI_vs_Time Line.TBT006 terminal=1 Mode=0
+New Monitor.TBT007_VI_vs_Time Line.TBT007 terminal=1 Mode=0
+New Monitor.TBT008_VI_vs_Time Line.TBT008 terminal=1 Mode=0
+New Monitor.TBT009_VI_vs_Time Line.TBT009 terminal=1 Mode=0
+New Monitor.TBT010_VI_vs_Time Line.TBT010 terminal=1 Mode=0
+New Monitor.TBT011_VI_vs_Time Line.TBT011 terminal=1 Mode=0
+New Monitor.TBT012_VI_vs_Time Line.TBT012 terminal=1 Mode=0
+New Monitor.TBT013_VI_vs_Time Line.TBT013 terminal=1 Mode=0
+
+
+

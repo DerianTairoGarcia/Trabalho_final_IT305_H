@@ -1,0 +1,11 @@
+Set DefaultBaseFrequency = 60
+
+New Circuit.SED022 basekV=10.5 pu=1.0 angle=0 frequency=60 phases=3
+
+Redirect Loadshapes.txt
+Redirect Transformers.txt
+Redirect LineCode.txt
+Redirect Lines.txt
+Redirect Loads.txt
+Redirect Monitors.txt
+

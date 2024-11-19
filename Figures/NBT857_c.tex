@@ -1,0 +1,55 @@
+\begin{tikzpicture}[baseline]
+    \begin{axis}[
+    xlabel={Period time [h]},
+    ylabel near ticks,
+    xlabel near ticks,
+    ylabel={Voltage [V]},
+    % tick style = {line width = 0.5, color = lightgray, 
+    %     major tick length=4pt,minor tick length=2pt,
+    %     minor x tick num = 3, minor y tick num =1},
+    % tick label style = {font=\small, xtick distance=4, 
+    %     xticklabels={00:00, 00:00, 04:00, 08:00, 12:00, 16:00, 20:00}},
+    % label style = {},
+    legend style = {font=\footnotesize, at={(0.99,0.98)}, 
+        legend cell align=left, line width=0.5pt, draw=lightgray, 
+        legend columns=3},
+    ymin=120, ymax=134.5,
+    xmin=01, xmax=24,
+    width=12cm,
+    height=7.5cm,
+    axis line style = {lightgray, line width = 0.5pt},
+    cycle multi list={
+    lightgray, black\nextlist
+    linestyles
+    }
+    ]
+
+    \addplot  table 
+        [col sep=comma, y=V1ev] {./Data/NBT857_base.dat};
+    \addlegendentry[]{$V_{1}^{EV}$}
+    \addplot  table 
+        [col sep=comma, y=V2ev] {./Data/NBT857_base.dat};
+    \addlegendentry[]{$V_{2}^{EV}$}
+    \addplot table 
+        [col sep=comma, y=V3ev] {./Data/NBT857_base.dat};
+    \addlegendentry[]{$V_{3}^{EV}$}
+
+    \addplot  table 
+        [col sep=comma, y=V1c] {./Data/NBT857_base.dat};
+    \addlegendentry[]{$V_{1}^{EV}$}
+    \addplot  table 
+        [col sep=comma, y=V2c] {./Data/NBT857_base.dat};
+    \addlegendentry[]{$V_{2}^{EV}$}
+    \addplot table 
+        [col sep=comma, y=V3c] {./Data/NBT857_base.dat};
+    \addlegendentry[]{$V_{3}^{EV}$}
+
+    \addplot [gray, mark = triangle] table 
+        [col sep=comma, y=Vmin] {./Data/NBT857_base.dat}; 
+    \addlegendentry{$V_{min}$}     
+    \addplot [gray, mark = square] table 
+        [col sep=comma, y=Vmax] {./Data/NBT857_base.dat}; 
+    \addlegendentry{$V_{max}$}     
+
+    \end{axis}
+\end{tikzpicture} 

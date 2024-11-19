@@ -1,0 +1,20 @@
+new Load.LOAD1  bus1=NBT886.1.2 phases=2  kV=0.220   kW=9  PF=0.98 model=1 Daily=Shape_01 status=variable
+new Load.LOAD2  bus1=NBT862.1.2 phases=2  kV=0.220   kW=9  PF=0.98 model=1 Daily=Shape_02 status=variable
+new Load.LOAD3  bus1=NBT863.1.2 phases=2  kV=0.220   kW=9  PF=0.98 model=1 Daily=Shape_03 status=variable
+new Load.LOAD4  bus1=NBT857.1.2 phases=2  kV=0.220   kW=9  PF=0.98 model=1 Daily=Shape_04 status=variable
+new Load.LOAD5  bus1=NBT849.1.2 phases=2  kV=0.220   kW=9  PF=0.98 model=1 Daily=Shape_05 status=variable
+new Load.LOAD6  bus1=NBT858.2.3 phases=2  kV=0.220   kW=9  PF=0.98 model=1 Daily=Shape_06 status=variable
+new Load.LOAD7  bus1=NBT856.2.3 phases=2  kV=0.220   kW=9  PF=0.98 model=1 Daily=Shape_07 status=variable
+new Load.LOAD8  bus1=NBT729.2.3 phases=2  kV=0.220   kW=9  PF=0.98 model=1 Daily=Shape_08 status=variable
+new Load.LOAD9  bus1=NBT847.2.3 phases=2  kV=0.220   kW=9  PF=0.98 model=1 Daily=Shape_09 status=variable
+new Load.LOAD10 bus1=NBT855.3.1 phases=2  kV=0.220   kW=9  PF=0.98 model=1 Daily=Shape_10 status=variable
+new Load.LOAD11 bus1=NBT854.3.1 phases=2  kV=0.220   kW=9  PF=0.98 model=1 Daily=Shape_11 status=variable
+new Load.LOAD12 bus1=NBT843.3.1 phases=2  kV=0.220   kW=9  PF=0.98 model=1 Daily=Shape_12 status=variable
+new Load.LOAD13 bus1=NBT841.3.1 phases=2  kV=0.220   kW=9  PF=0.98 model=1 Daily=Shape_13 status=variable
+
+!! Loads for EVs
+
+new Load.EV_LOAD1  bus1=NBT857.1.2.3   phases=2  kV=0.22   kW=6.6  PF=1 model=1 Daily=ev_shape_1  status=variable
+new Load.EV_LOAD2  bus1=NBT856.1.2.3   phases=2  kV=0.22   kW=6.6  PF=1 model=1 Daily=ev_shape_2  status=variable
+new Load.EV_LOAD3  bus1=NBT841.1.2.3   phases=2  kV=0.22   kW=6.6  PF=1 model=1 Daily=ev_shape_3  status=variable
+

@@ -1,0 +1,13 @@
+New Line.ESE001TBT004085 Bus1=7 Bus2=8 phases=3 Linecode=CPI-3x25 mm² Length=20.15390563 Units=m
+New Line.ESE001TBT004085 Bus1=6 Bus2=7 phases=3 Linecode=CPI-3x25 mm² Length=20.15390563 Units=m
+New Line.ESE001TBT002587 Bus1=5 Bus2=6 phases=3 Linecode=CPI-3x35 mm² Length=86.9059615 Units=m
+New Line.ESE001TBT002587 Bus1=4 Bus2=5 phases=3 Linecode=CPI-3x35 mm² Length=86.9059615 Units=m
+New Line.ESE001TBT002587 Bus1=3 Bus2=4 phases=3 Linecode=CPI-3x35 mm² Length=86.9059615 Units=m
+New Line.ESE001TBT013574 Bus1=2 Bus2=3 phases=3 Linecode=AUT_AL-3x70 mm² Length=21.15499587 Units=m
+New Line.ESE001TBT013574 Bus1=1 Bus2=2 phases=3 Linecode=AUT_AL-3x70 mm² Length=21.15499587 Units=m
+New Line.ESE001TBT002583 Bus1=1 Bus2=100 phases=3 Linecode=CPI-3x25 mm² Length=53.45646771 Units=m
+New Line.ESE001TBT002583 Bus1=100 Bus2=101 phases=3 Linecode=CPI-3x25 mm² Length=53.45646771 Units=m
+New Line.ESE001TBT002583 Bus1=101 Bus2=102 phases=3 Linecode=CPI-3x25 mm² Length=53.45646771 Units=m
+New Line.ESE001TBT013692 Bus1=102 Bus2=103 phases=3 Linecode=NKBA-3x25 mm² Length=26.00710193 Units=m
+New Line.ESE001TBT002584 Bus1=103 Bus2=104 phases=3 Linecode=CPI-3x25 mm² Length=49.34697115 Units=m
+New Line.ESE001TBT002584 Bus1=104 Bus2=104 phases=3 Linecode=CPI-3x25 mm² Length=49.34697115 Units=m

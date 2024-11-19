@@ -1,0 +1,1 @@
+New Transformer.SED022 phases=3 windings=2 buses=(sourcebus, 1) conns=(delta, wye) kvs=(10.5, 0.22) kvas=(100, 100) %loadloss=0 xhl=5

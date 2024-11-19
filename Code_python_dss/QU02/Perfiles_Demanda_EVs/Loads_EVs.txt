@@ -1,0 +1,24 @@
+new Load.LOAD1  bus1=1.1.2.3.4  phases=3  kV=0.22   kW=1  PF=1 model=1 Daily=Shape_1  status=variable
+new Load.LOAD2  bus1=2.1.2.3.4  phases=3  kV=0.22   kW=1  PF=1 model=1 Daily=Shape_2  status=variable
+new Load.LOAD3  bus1=3.1.2.3.4  phases=3  kV=0.22   kW=1  PF=1 model=1 Daily=Shape_3  status=variable
+new Load.LOAD4  bus1=4.1.2.3.4  phases=3  kV=0.22   kW=1  PF=1 model=1 Daily=Shape_4  status=variable
+new Load.LOAD5  bus1=5.1.2.3.4  phases=3  kV=0.22   kW=1  PF=1 model=1 Daily=Shape_5  status=variable
+new Load.LOAD6  bus1=6.1.2.3.4  phases=3  kV=0.22   kW=1  PF=1 model=1 Daily=Shape_6  status=variable
+new Load.LOAD7  bus1=7.1.2.3.4  phases=3  kV=0.22   kW=1  PF=1 model=1 Daily=Shape_7  status=variable
+new Load.LOAD8  bus1=8.1.2.3.4  phases=3  kV=0.22   kW=1  PF=1 model=1 Daily=Shape_8  status=variable
+new Load.LOAD9  bus1=9.1.2.3.4  phases=3  kV=0.22   kW=1  PF=1 model=1 Daily=Shape_9  status=variable
+new Load.LOAD10 bus1=10.1.2.3.4 phases=3  kV=0.22 	kW=1  PF=1 model=1 Daily=Shape_10 status=variable
+new Load.LOAD11 bus1=11.1.2.3.4 phases=3  kV=0.22 	kW=1  PF=1 model=1 Daily=Shape_11 status=variable
+new Load.LOAD12 bus1=12.1.2.3.4 phases=3  kV=0.22 	kW=1  PF=1 model=1 Daily=Shape_12 status=variable
+new Load.LOAD13 bus1=13.1.2.3.4 phases=3  kV=0.22 	kW=1  PF=1 model=1 Daily=Shape_13 status=variable
+new Load.LOAD14 bus1=14.1.2.3.4 phases=3  kV=0.22 	kW=1  PF=1 model=1 Daily=Shape_14 status=variable
+
+!! Loads for EVs
+
+new Load.EV_LOAD1  bus1=1   phases=3  kV=0.22   kW=3  PF=1 model=1 Daily=ev_shape_1  status=variable
+new Load.EV_LOAD2  bus1=6   phases=3  kV=0.22   kW=3  PF=1 model=1 Daily=ev_shape_2  status=variable
+new Load.EV_LOAD3  bus1=14  phases=3  kV=0.22   kW=3  PF=1 model=1 Daily=ev_shape_3  status=variable
+
+new Load.EV_LOAD1  bus1=1.1.4   phases=2  kV=0.127   kW=3  PF=1 model=1 Daily=ev_Shape_1  status=variable
+new Load.EV_LOAD2  bus1=6.2.4   phases=2  kV=0.127   kW=3  PF=1 model=1 Daily=ev_Shape_2  status=variable
+new Load.EV_LOAD3  bus1=14.3.4  phases=2  kV=0.127   kW=3  PF=1 model=1 Daily=ev_Shape_3  status=variable

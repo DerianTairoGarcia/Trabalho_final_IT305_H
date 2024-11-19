@@ -5,8 +5,33 @@
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
+\bibitem{opendss}
+EPRI, \href{https://www.dss-extensions.org/index.html}{OpenDSS - The Open Distribution System Simulator}, Electric Power Research Institute, version 9.4.0.1 (2021).
+\newline\urlprefix\url{https://www.dss-extensions.org/index.html}
+
+\bibitem{ElectroSurEste}
+{Electro Sur Este S.A.A.}, \href{https://www.gob.pe/electrosureste}{Electro sur este - gobierno del perú}, accedido el 18 de noviembre de 2024 (2024).
+\newline\urlprefix\url{https://www.gob.pe/electrosureste}
+
+\bibitem{ArcGIS10.3}
+{Environmental Systems Research Institute (ESRI)}, \href{https://www.esri.com/en-us/arcgis/products/arcgis-desktop/overview}{ArcGIS Desktop 10.3}, software de sistemas de información geográfica (2014).
+\newline\urlprefix\url{https://www.esri.com/en-us/arcgis/products/arcgis-desktop/overview}
+
+\bibitem{NetworkX}
+A.~A. Hagberg, D.~A. Schult, P.~J. Swart, Exploring network structure, dynamics, and function using networkx, in: G.~Varoquaux, T.~Vaught, J.~Millman (Eds.), Proceedings of the 7th Python in Science Conference, Pasadena, CA USA, 2008, pp. 11 -- 15.
+
 \bibitem{Richardson2013}
 P.~Richardson, M.~Moran, J.~Taylor, A.~Maitra, A.~Keane, Impact of electric vehicle charging on residential distribution networks: An irish demonstration initiative, in: 22nd International Conference and Exhibition on Electricity Distribution (CIRED 2013), 2013, pp. 1--4.
 \newblock \href {https://doi.org/10.1049/cp.2013.0873} {\path{doi:10.1049/cp.2013.0873}}.
+
+\bibitem{byd}
+{BYD}, {BYD Dolphin - Car Specifications}, \url{https://www.byd.com/br/car/dolphin}, accessed: 2024-11-18 (2024).
+
+\bibitem{dataset_profiles}
+A.~Navarro-Espinosa, L.~Ochoa, Low carbon technology profiles (06 2015).
+
+\bibitem{opendss_python}
+R.~Dugan, contributors, \href{https://dss-extensions.org/}{Opendssdirect.py: Python bindings for opendss}, accessed: 2024-11-18 (2024).
+\newline\urlprefix\url{https://dss-extensions.org/}
 
 \end{thebibliography}

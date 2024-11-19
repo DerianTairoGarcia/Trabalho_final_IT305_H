@@ -1,0 +1,1 @@
+New Loadshape.Shape_1 npts=24 interval=1 mult=(file=C:\Users\erick\Desktop\2024_UNICAMP\03_Cursos\TSEEII\03_Trabajo_Final\Simulacion Final\2024.11.07_QU02\QU02\demand_daily.txt) useactual=false

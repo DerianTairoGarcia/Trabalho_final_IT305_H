@@ -1,0 +1,23 @@
+new Line.TBTSED Bus1=NSED022 Bus2=NBT886  length=0.002  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT001 Bus1=NBT886  Bus2=NBT862  length=0.002  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT002 Bus1=NBT862  Bus2=NBT863  length=0.002  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT003 Bus1=NBT863  Bus2=NBT857  length=0.003  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT004 Bus1=NBT857  Bus2=NBT849  length=0.002  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT005 Bus1=NBT857  Bus2=NBT858  length=0.003  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT006 Bus1=NBT858  Bus2=NBT856  length=0.002  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT007 Bus1=NBT856  Bus2=NBT729  length=0.002  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT008 Bus1=NBT729  Bus2=NBT847  length=0.001  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT009 Bus1=NBT856  Bus2=NBT855  length=0.002  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT010 Bus1=NBT855  Bus2=NBT854  length=0.003  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT011 Bus1=NBT854  Bus2=NBT843  length=0.002  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT012 Bus1=NBT843  Bus2=NBT841  length=0.003  phases=3  units=km linecode=AUT_AL-3x120
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

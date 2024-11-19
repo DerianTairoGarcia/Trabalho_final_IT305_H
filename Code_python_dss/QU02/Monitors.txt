@@ -1,0 +1,64 @@
+New Monitor.ESE001TBT01_PQ_vs_Time Line.ESE001TBT01 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT01_VI_vs_Time Line.ESE001TBT01 2 Mode=0
+New Monitor.ESE001TBT02_PQ_vs_Time Line.ESE001TBT02 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT02_VI_vs_Time Line.ESE001TBT02 2 Mode=0
+New Monitor.ESE001TBT03_PQ_vs_Time Line.ESE001TBT03 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT03_VI_vs_Time Line.ESE001TBT03 2 Mode=0
+New Monitor.ESE001TBT04_PQ_vs_Time Line.ESE001TBT04 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT04_VI_vs_Time Line.ESE001TBT04 2 Mode=0
+New Monitor.ESE001TBT05_PQ_vs_Time Line.ESE001TBT05 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT05_VI_vs_Time Line.ESE001TBT05 2 Mode=0
+New Monitor.ESE001TBT06_PQ_vs_Time Line.ESE001TBT06 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT06_VI_vs_Time Line.ESE001TBT06 2 Mode=0
+New Monitor.ESE001TBT07_PQ_vs_Time Line.ESE001TBT07 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT07_VI_vs_Time Line.ESE001TBT07 2 Mode=0
+New Monitor.ESE001TBT08_PQ_vs_Time Line.ESE001TBT08 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT08_VI_vs_Time Line.ESE001TBT08 2 Mode=0
+New Monitor.ESE001TBT09_PQ_vs_Time Line.ESE001TBT09 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT09_VI_vs_Time Line.ESE001TBT09 2 Mode=0
+New Monitor.ESE001TBT010_PQ_vs_Time Line.ESE001TBT010 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT010_VI_vs_Time Line.ESE001TBT010 2 Mode=0
+New Monitor.ESE001TBT011_PQ_vs_Time Line.ESE001TBT011 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT011_VI_vs_Time Line.ESE001TBT011 2 Mode=0
+New Monitor.ESE001TBT012_PQ_vs_Time Line.ESE001TBT012 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT012_VI_vs_Time Line.ESE001TBT012 2 Mode=0
+New Monitor.ESE001TBT013_PQ_vs_Time Line.ESE001TBT013 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT013_VI_vs_Time Line.ESE001TBT013 2 Mode=0
+New Monitor.ESE001TBT014_PQ_vs_Time Line.ESE001TBT014 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT014_VI_vs_Time Line.ESE001TBT014 2 Mode=0
+New Monitor.ESE001TBT015_PQ_vs_Time Line.ESE001TBT015 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT015_VI_vs_Time Line.ESE001TBT015 2 Mode=0
+New Monitor.ESE001TBT016_PQ_vs_Time Line.ESE001TBT016 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT016_VI_vs_Time Line.ESE001TBT016 2 Mode=0
+New Monitor.ESE001TBT017_PQ_vs_Time Line.ESE001TBT017 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT017_VI_vs_Time Line.ESE001TBT017 2 Mode=0
+New Monitor.ESE001TBT018_PQ_vs_Time Line.ESE001TBT018 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT018_VI_vs_Time Line.ESE001TBT018 2 Mode=0
+New Monitor.ESE001TBT019_PQ_vs_Time Line.ESE001TBT019 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT019_VI_vs_Time Line.ESE001TBT019 2 Mode=0
+New Monitor.ESE001TBT020_PQ_vs_Time Line.ESE001TBT020 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT020_VI_vs_Time Line.ESE001TBT020 2 Mode=0
+New Monitor.ESE001TBT021_PQ_vs_Time Line.ESE001TBT021 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT021_VI_vs_Time Line.ESE001TBT021 2 Mode=0
+New Monitor.ESE001TBT022_PQ_vs_Time Line.ESE001TBT022 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT022_VI_vs_Time Line.ESE001TBT022 2 Mode=0
+New Monitor.ESE001TBT023_PQ_vs_Time Line.ESE001TBT023 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT023_VI_vs_Time Line.ESE001TBT023 2 Mode=0
+New Monitor.ESE001TBT024_PQ_vs_Time Line.ESE001TBT024 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT024_VI_vs_Time Line.ESE001TBT024 2 Mode=0
+New Monitor.ESE001TBT025_PQ_vs_Time Line.ESE001TBT025 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT025_VI_vs_Time Line.ESE001TBT025 2 Mode=0
+New Monitor.ESE001TBT026_PQ_vs_Time Line.ESE001TBT026 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT026_VI_vs_Time Line.ESE001TBT026 2 Mode=0
+New Monitor.ESE001TBT027_PQ_vs_Time Line.ESE001TBT027 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT027_VI_vs_Time Line.ESE001TBT027 2 Mode=0
+New Monitor.ESE001TBT028_PQ_vs_Time Line.ESE001TBT028 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT028_VI_vs_Time Line.ESE001TBT028 2 Mode=0
+New Monitor.ESE001TBT029_PQ_vs_Time Line.ESE001TBT029 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT029_VI_vs_Time Line.ESE001TBT029 2 Mode=0
+New Monitor.ESE001TBT030_PQ_vs_Time Line.ESE001TBT030 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT030_VI_vs_Time Line.ESE001TBT030 2 Mode=0
+New Monitor.ESE001TBT031_PQ_vs_Time Line.ESE001TBT031 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT031_VI_vs_Time Line.ESE001TBT031 2 Mode=0
+New Monitor.ESE001TBT032_PQ_vs_Time Line.ESE001TBT032 2 Mode=1 ppolar=0
+New Monitor.ESE001TBT032_VI_vs_Time Line.ESE001TBT032 2 Mode=0

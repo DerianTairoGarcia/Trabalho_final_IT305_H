@@ -1,0 +1,26 @@
+new Line.TBT001 Bus1=1 Bus2=2   length=0.09688  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT002 Bus1=2 Bus2=3   length=0.09688  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT003 Bus1=3 Bus2=4   length=0.01829  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT004 Bus1=4 Bus2=5   length=0.09688  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT005 Bus1=5 Bus2=6   length=0.0715  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT006 Bus1=6 Bus2=7   length=0.09688  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT007 Bus1=7 Bus2=8   length=0.03288  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT008 Bus1=8 Bus2=9   length=0.0715  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT009 Bus1=9 Bus2=10  length=0.04931  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT010 Bus1=10 Bus2=11 length=0.03288  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT011 Bus1=11 Bus2=12 length=0.02158  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT012 Bus1=12 Bus2=13 length=0.03288  phases=3  units=km linecode=AUT_AL-3x120
+new Line.TBT013 Bus1=13 Bus2=14 length=0.02158  phases=3  units=km linecode=AUT_AL-3x120
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
